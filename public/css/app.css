@@ -17228,13 +17228,13 @@ textarea.form-control-lg {
   }
 }
 body {
-  font-family: "Courgette";
+  max-width: max-content;
 }
 body header .nav {
   display: flex;
   position: absolute;
   z-index: 1;
-  transform: translate(300px, 0);
+  transform: translate(350px, 0);
   width: 100%;
   margin-top: 2%;
 }
@@ -17242,8 +17242,27 @@ body header .nav .txt {
   z-index: 1;
   transform: translate(-750px, 300px);
   text-align: center;
+  font-family: "Courgettes";
 }
 body header .nav .txt h1, body header .nav .txt .h1 {
+  color: #fff;
+}
+body header .nav .txt h1 #ocase, body header .nav .txt .h1 #ocase {
+  text-transform: uppercase;
+}
+body header .nav .txt h1 #taste, body header .nav .txt .h1 #taste {
+  color: red;
+}
+body header .nav .txt .white {
+  border-radius: 30px;
+  padding: 2%;
+  text-transform: uppercase;
+}
+body header .nav .txt .red {
+  border-radius: 30px;
+  padding: 2%;
+  text-transform: uppercase;
+  background-color: red;
   color: #fff;
 }
 body header .nav .elements {
