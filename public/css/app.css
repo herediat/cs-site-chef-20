@@ -17287,14 +17287,36 @@ body header .nav .elements li a {
 .section1 {
   background-image: url(../images/main_bg.jpg);
   background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+}
+.section1 .contain-inner {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 .section1 .story {
-  display: flex;
-  justify-content: space-between;
   justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
 }
-.section1 .story .top-left {
-  margin-left: 15%;
+.section1 .story h2, .section1 .story .h2 {
+  text-transform: capitalize;
+}
+.section1 .story h2 span, .section1 .story .h2 span {
+  text-transform: uppercase;
+  color: red;
+}
+.section1 .story .menu {
+  margin-top: 10%;
+}
+.section1 .story .menu h2, .section1 .story .menu .h2 {
+  text-transform: capitalize;
+}
+.section1 .story .menu h2 span, .section1 .story .menu .h2 span {
+  text-transform: uppercase;
+  color: red;
 }
 
 /*# sourceMappingURL=app.css.map */
