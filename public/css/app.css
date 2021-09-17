@@ -17284,4 +17284,17 @@ body header .nav .elements li a {
   margin-bottom: 4%;
 }
 
+.section1 {
+  background-image: url(../images/main_bg.jpg);
+  background-repeat: repeat;
+}
+.section1 .story {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.section1 .story .top-left {
+  margin-left: 15%;
+}
+
 /*# sourceMappingURL=app.css.map */
