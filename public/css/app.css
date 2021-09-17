@@ -17227,5 +17227,42 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Courgette";
+}
+body header .nav {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  transform: translate(300px, 0);
+  width: 100%;
+  margin-top: 2%;
+}
+body header .nav .txt {
+  z-index: 1;
+  transform: translate(-750px, 300px);
+  text-align: center;
+}
+body header .nav .txt h1, body header .nav .txt .h1 {
+  color: #fff;
+}
+body header .nav .elements {
+  display: flex;
+  text-decoration: none;
+  border-top: solid #fff;
+  border-bottom: solid #fff;
+  margin-top: 3%;
+}
+body header .nav .elements li:hover {
+  background-color: red;
+}
+body header .nav .elements li {
+  list-style-type: none;
+}
+body header .nav .elements li a {
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
 
 /*# sourceMappingURL=app.css.map */
