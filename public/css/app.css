@@ -17287,7 +17287,7 @@ body header .nav .elements li a {
 .section1 {
   background-image: url(../images/main_bg.jpg);
   background-repeat: repeat;
-  height: 100vh;
+  height: 200vh;
   display: flex;
 }
 .section1 .contain-inner {
