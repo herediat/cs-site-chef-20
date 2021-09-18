@@ -17287,8 +17287,36 @@ body header .nav .elements li a {
 .section1 {
   background-image: url(../images/main_bg.jpg);
   background-repeat: repeat;
-  height: 200vh;
+  height: auto;
   display: flex;
+}
+.section1 .row {
+  margin-top: 5%;
+}
+.section1 .row .col-2 li {
+  border-right: solid #000;
+  border-bottom: solid #000;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .row .col-2 li i {
+  color: grey;
+  font-size: 6em;
+  margin-left: 25%;
+}
+.section1 .row .col-2 li p {
+  text-transform: capitalize;
+  text-align: center;
+}
+.section1 .row .col-5 li {
+  display: flex;
+  list-style-type: none;
+  border-bottom: 1px dotted;
+}
+.section1 .row .col-5 li img {
+  width: 8em;
+  border-radius: 100px;
 }
 .section1 .contain-inner {
   display: flex;
@@ -17317,6 +17345,12 @@ body header .nav .elements li a {
 .section1 .story .menu h2 span, .section1 .story .menu .h2 span {
   text-transform: uppercase;
   color: red;
+}
+.section1 .btm-triangle {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
 }
 
 /*# sourceMappingURL=app.css.map */

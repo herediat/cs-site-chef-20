@@ -1,8 +1,32 @@
 .section1
     background-image: url(../images/main_bg.jpg)
     background-repeat: repeat
-    height: 200vh
+    height: auto
     display: flex
+    .row
+        margin-top: 5%
+        .col-2
+            li
+                border-right: solid #000
+                border-bottom: solid #000
+                list-style-type: none
+                justify-content: center
+                align-items: center
+                i
+                    color: grey
+                    font-size: 6em
+                    margin-left: 25%
+                p
+                    text-transform: capitalize
+                    text-align: center
+        .col-5
+            li
+                display: flex
+                list-style-type: none
+                border-bottom: 1px dotted
+                img
+                    width: 8em
+                    border-radius: 100px
     .contain-inner
         display: flex
         text-align: center
@@ -24,10 +48,11 @@
                 span
                     text-transform: uppercase
                     color: red
-//-----------------------Menu------------------
-            
-
-                
+    .btm-triangle
+        display: flex
+        justify-content: center
+        justify-content: space-between
+        margin: auto
 
         
 
