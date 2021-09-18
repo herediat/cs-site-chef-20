@@ -17353,4 +17353,29 @@ body header .nav .elements li a {
   margin: auto;
 }
 
+.section2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/team_background.jpg");
+  background-repeat: no-repeat;
+}
+.section2 .names {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+.section2 .names span {
+  text-transform: uppercase;
+  color: red;
+}
+.section2 .chefs {
+  display: flex;
+  justify-content: space-around;
+}
+.section2 .chefs img {
+  border-bottom: 1px solid #fff;
+}
+.section2 .chefs p {
+  color: #fff;
+  text-align: center;
+}
+
 /*# sourceMappingURL=app.css.map */
