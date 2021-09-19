@@ -17228,7 +17228,9 @@ textarea.form-control-lg {
   }
 }
 body {
-  max-width: max-content;
+  background-image: url("../images/main_bg.jpg");
+  background-repeat: repeat;
+  height: auto;
 }
 body header .nav {
   display: flex;
@@ -17375,6 +17377,22 @@ body header .nav .elements li a {
 }
 .section2 .chefs p {
   color: #fff;
+  text-align: center;
+}
+
+.section3 .table {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.section3 .book {
+  text-align: center;
+}
+.section3 .infos {
+  background-image: url("../images/book_table_bg.jpg");
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 
