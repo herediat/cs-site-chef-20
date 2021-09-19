@@ -17522,4 +17522,26 @@ body header .nav .elements li a {
   float: right;
 }
 
+.section5 .title-contact {
+  text-align: center;
+  margin-top: 3%;
+  text-transform: capitalize;
+}
+.section5 .title-contact span {
+  color: red;
+}
+.section5 .contact {
+  text-align: center;
+  margin-top: 5%;
+  border: solid #C42D40;
+  border-radius: 10%;
+  background-color: #C42D40;
+  color: #fff;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.section5 .contact i {
+  font-size: 3em;
+}
+
 /*# sourceMappingURL=app.css.map */
