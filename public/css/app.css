@@ -17390,13 +17390,14 @@ body header .nav .elements li a {
   text-transform: capitalize;
 }
 .section3 .book span {
-  color: red;
+  color: #C42D40;
 }
 .section3 .infos {
   background-image: url("../images/book_table_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  color: #fff;
 }
 .section3 .infos .formular {
   text-align: center;
@@ -17417,13 +17418,61 @@ body header .nav .elements li a {
   margin-top: 5%;
   margin-bottom: 7%;
   border-radius: 15px;
-  background-color: red;
+  background-color: #C42D40;
   color: #fff;
   padding-right: 3%;
   padding-left: 3%;
   padding-top: 1%;
   padding-bottom: 1%;
   text-transform: uppercase;
+}
+.section3 .blog {
+  text-align: center;
+  margin-top: 5%;
+}
+.section3 .blog-pics {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  z-index: -1;
+}
+.section3 .blog-pics img {
+  border-radius: 15px;
+  border: solid grey;
+}
+.section3 .blog-pics p {
+  font-size: larger;
+  color: #fff;
+  text-align: center;
+  background-color: #C42D40;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  transform: translate(0, -20px);
+  padding-bottom: 3%;
+  padding-top: 3%;
+  margin-left: 7%;
+  margin-right: 15%;
+}
+.section3 .blog-pics p span {
+  font-size: x-large;
+}
+.section3 .red-btn {
+  text-align: center;
+  margin-top: 5%;
+}
+.section3 .red-btn button {
+  background-color: #C42D40;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.section3 .box-bottom {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=app.css.map */
