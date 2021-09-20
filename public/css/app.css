@@ -17360,6 +17360,7 @@ body header .btn {
   margin-right: 25%;
 }
 .section1 .story h2, .section1 .story .h2 {
+  font-family: Courgettes;
   text-transform: capitalize;
 }
 .section1 .story h2 span, .section1 .story .h2 span {
@@ -17389,6 +17390,7 @@ body header .btn {
   padding-top: 5%;
 }
 .section2 .names {
+  font-family: Courgettes;
   text-align: center;
   color: #fff;
 }
@@ -17418,6 +17420,7 @@ body header .btn {
 .section3 .book {
   text-align: center;
   text-transform: capitalize;
+  font-family: Courgettes;
 }
 .section3 .book span {
   color: #C42D40;
@@ -17465,8 +17468,13 @@ body header .btn {
   text-transform: uppercase;
 }
 .section3 .blog {
+  text-transform: capitalize;
   text-align: center;
   margin-top: 5%;
+  font-family: Courgettes;
+}
+.section3 .blog span {
+  color: red;
 }
 .section3 .blog-pics {
   display: flex;
@@ -17525,6 +17533,8 @@ body header .btn {
 }
 .section4 .testimonials h1, .section4 .testimonials .h1 {
   color: #fff;
+  font-family: Courgettes;
+  text-transform: capitalize;
 }
 .section4 .testimonials span {
   color: #C42D40;
@@ -17565,6 +17575,7 @@ body header .btn {
   text-align: center;
   margin-top: 3%;
   text-transform: capitalize;
+  font-family: Courgettes;
 }
 .section5 .title-contact span {
   color: red;
@@ -17605,6 +17616,7 @@ footer .col4 .tags button {
   border-radius: 15px;
   margin: 2%;
   border: solid 1px #fff;
+  text-transform: capitalize;
 }
 footer #fond-red {
   background-color: #C42D40;
