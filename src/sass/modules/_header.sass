@@ -14,7 +14,9 @@ body
                 text-align: center
                 font-size: 10px
                 margin-left: 0
-                
+            @media screen  and (min-width: 620px) and ( max-width: 1024px)
+                flex-direction: column
+                text-align: center
             .txt
                 z-index: 1
                 transform: translate(175px, 250px)
@@ -23,6 +25,8 @@ body
                 @media screen and (max-width: 600px)
                     flex-direction: column
                     transform: translate(0, 225px)
+                @media screen  and (min-width: 620px) and ( max-width: 1024px)
+                    transform: translate(50px, 150px)
                     
                 h1
                     #ocase
