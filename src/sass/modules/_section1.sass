@@ -5,6 +5,8 @@
     display: flex
     .row
         margin-top: 5%
+        @media screen and (max-width: 600px)
+            flex-direction: column
         .call2
             li
                 border-right: solid #000
@@ -22,7 +24,8 @@
                 i
                     color: grey
                     font-size: 6em
-                    margin-left: 25%
+                    margin-left: 25%      
+                      
                 i:hover
                     color: red !important
             p

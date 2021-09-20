@@ -9,6 +9,10 @@
         font-family: Courgettes
         span
             color: #C42D40
+        img[alt="decoration-line"]
+            @media screen and (max-width: 600px)
+                width: 70%
+        
     .infos
         background-image: url("../images/book_table_bg.jpg")
         border-radius: 15px
@@ -19,6 +23,11 @@
         text-align: center
         color: #fff
         margin-top: 3%
+        @media screen and (max-width: 600px)
+            background-size: cover
+            width: 70%
+            margin-left: 15%
+            
         .formular
             text-align: center
             input
@@ -53,12 +62,22 @@
         font-family: Courgettes
         span
             color: red
+        img[alt="deco-line"]
+            @media screen and (max-width: 600px)
+                width: 70%
     .blog-pics
         display: flex
         justify-content: center
         justify-content: space-evenly
         margin-top: 3%
         z-index: -1
+        @media screen and (max-width: 600px)
+            flex-direction: column
+            text-align: center
+            img[alt="img-blg"]
+                @media screen and (max-width: 600px)
+                    width: 350px
+                    margin-left: 0
         img
             border-radius: 15px
             border: solid grey
@@ -75,6 +94,12 @@
             padding-top: 3%
             margin-left: 7%
             margin-right: 15%
+            @media screen and (max-width: 600px)
+                width: 200px
+                padding-right: 100px
+                padding-right: 20px
+                margin-left: 20%
+                text-align: center
             span
                 font-size: x-large
     .red-btn

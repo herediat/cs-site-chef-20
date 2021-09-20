@@ -2,6 +2,10 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/team_background.jpg")
     background-repeat: no-repeat
     padding-top: 5%
+    @media screen and (max-width: 600px)
+        background-size: cover
+        // background-repeat: repeat
+        
     .names
         font-family: Courgettes
         text-align: center
@@ -9,9 +13,17 @@
         span
             text-transform: uppercase
             color: red
+        img[alt="deco-line"]
+            @media screen and (max-width: 600px)
+                width: 70%
+                
     .chefs
         display: flex
         justify-content: space-around
+        @media screen and (max-width: 600px)
+            flex-direction: column
+            text-align: center
+            
         img
             border-bottom: 1px solid #fff
             padding-top: 10%
