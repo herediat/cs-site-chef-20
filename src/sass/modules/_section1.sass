@@ -5,21 +5,33 @@
     display: flex
     .row
         margin-top: 5%
-        .col-2
+        .col2
             li
                 border-right: solid #000
                 border-bottom: solid #000
                 list-style-type: none
                 justify-content: center
                 align-items: center
+                .liste
+                &:hover
+                    border-right: solid red
+                    color: #000
+            a
+                text-decoration: none
+                color: grey
                 i
                     color: grey
                     font-size: 6em
                     margin-left: 25%
-                p
-                    text-transform: capitalize
-                    text-align: center
-        .col-5
+                i:hover
+                    color: red !important
+            p
+                text-transform: capitalize
+                text-align: center
+                text-align: center
+            p:hover
+                color: #000
+        .col5
             li
                 display: flex
                 list-style-type: none

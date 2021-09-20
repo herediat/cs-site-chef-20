@@ -17299,28 +17299,43 @@ body header .nav .elements li a {
 .section1 .row {
   margin-top: 5%;
 }
-.section1 .row .col-2 li {
+.section1 .row .col2 li {
   border-right: solid #000;
   border-bottom: solid #000;
   list-style-type: none;
   justify-content: center;
   align-items: center;
 }
-.section1 .row .col-2 li i {
+.section1 .row .col2 li:hover {
+  border-right: solid red;
+  color: #000;
+}
+.section1 .row .col2 a {
+  text-decoration: none;
+  color: grey;
+}
+.section1 .row .col2 a i {
   color: grey;
   font-size: 6em;
   margin-left: 25%;
 }
-.section1 .row .col-2 li p {
+.section1 .row .col2 a i:hover {
+  color: red !important;
+}
+.section1 .row .col2 p {
   text-transform: capitalize;
   text-align: center;
+  text-align: center;
 }
-.section1 .row .col-5 li {
+.section1 .row .col2 p:hover {
+  color: #000;
+}
+.section1 .row .col5 li {
   display: flex;
   list-style-type: none;
   border-bottom: 1px dotted;
 }
-.section1 .row .col-5 li img {
+.section1 .row .col5 li img {
   width: 8em;
   border-radius: 100px;
 }
@@ -17362,11 +17377,11 @@ body header .nav .elements li a {
 .section2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/team_background.jpg");
   background-repeat: no-repeat;
+  padding-top: 5%;
 }
 .section2 .names {
   text-align: center;
   color: #fff;
-  margin-top: 10px;
 }
 .section2 .names span {
   text-transform: uppercase;
@@ -17378,6 +17393,8 @@ body header .nav .elements li a {
 }
 .section2 .chefs img {
   border-bottom: 1px solid #fff;
+  padding-top: 10%;
+  margin-top: 5%;
 }
 .section2 .chefs p {
   color: #fff;
@@ -17398,10 +17415,14 @@ body header .nav .elements li a {
 }
 .section3 .infos {
   background-image: url("../images/book_table_bg.jpg");
+  border-radius: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   color: #fff;
+  margin-top: 3%;
 }
 .section3 .infos .formular {
   text-align: center;
@@ -17411,12 +17432,16 @@ body header .nav .elements li a {
   padding: 10px;
   margin-top: 30px;
   text-transform: capitalize;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .section3 .infos .formular select {
   border-radius: 20px;
   padding: 10px;
   margin-top: 30px;
   text-transform: capitalize;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .section3 .infos button {
   margin-top: 5%;
@@ -17481,6 +17506,7 @@ body header .nav .elements li a {
 
 .section4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/testimonials_background.jpg");
+  padding-bottom: 10%;
 }
 .section4 .testimonials {
   background-repeat: no-repeat;
@@ -17543,6 +17569,7 @@ body header .nav .elements li a {
   color: #fff;
   margin-left: 35%;
   margin-right: 35%;
+  margin-bottom: 10%;
 }
 .section5 .contact i {
   font-size: 3em;
