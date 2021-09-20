@@ -17520,33 +17520,33 @@ body header .nav .elements li a {
 .section4 .testimonials span {
   color: #C42D40;
 }
-.section4 .row .col-6 {
+.section4 .row .col6 {
   display: flex;
   margin-top: 10%;
 }
-.section4 .row .col-6 .ecrito1 {
+.section4 .row .col6 .ecrito1 {
   border: solid #fff;
   border-radius: 15px;
   margin-left: 15px;
   color: #fff;
 }
-.section4 .row .col-6 .ecrito1 span {
+.section4 .row .col6 .ecrito1 span {
   color: red;
 }
-.section4 .row .col-6 .ecrito2 {
+.section4 .row .col6 .ecrito2 {
   border: solid #fff;
   border-radius: 15px;
   margin-right: 15px;
   color: #fff;
 }
-.section4 .row .col-6 .ecrito2 span {
+.section4 .row .col6 .ecrito2 span {
   color: red;
 }
-.section4 .row .col-6 img[alt=testi1] {
+.section4 .row .col6 img[alt=testi1] {
   border-radius: 100%;
   width: 10em;
 }
-.section4 .row .col-6 img[alt=testi2] {
+.section4 .row .col6 img[alt=testi2] {
   border-radius: 100%;
   width: 10em;
   float: right;
@@ -17578,19 +17578,19 @@ body header .nav .elements li a {
 footer {
   background-image: url(../images/footer_background.jpg);
 }
-footer .col-4 {
+footer .col4 {
   color: #fff;
   margin-top: 3%;
 }
-footer .col-4 .icns a {
+footer .col4 .icns a {
   text-decoration: none;
 }
-footer .col-4 .icns a i {
+footer .col4 .icns a i {
   font-size: 35px;
   color: #fff;
   margin: 3%;
 }
-footer .col-4 .tags button {
+footer .col4 .tags button {
   background-color: #C42D40;
   color: #fff;
   border-radius: 15px;
