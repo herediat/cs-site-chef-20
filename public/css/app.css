@@ -17394,6 +17394,11 @@ body header .btn {
   text-transform: uppercase;
   color: red;
 }
+@media screen and (max-width: 600px) {
+  .section1 .story img[alt=deco-line] {
+    width: 70%;
+  }
+}
 .section1 .story .menu {
   margin-top: 10%;
 }
@@ -17403,6 +17408,11 @@ body header .btn {
 .section1 .story .menu h2 span, .section1 .story .menu .h2 span {
   text-transform: uppercase;
   color: red;
+}
+@media screen and (max-width: 600px) {
+  .section1 .story .menu img[alt=deco-line] {
+    width: 70%;
+  }
 }
 .section1 .btm-triangle {
   display: flex;
@@ -17620,9 +17630,27 @@ body header .btn {
 .section4 .testimonials span {
   color: #C42D40;
 }
+@media screen and (max-width: 600px) {
+  .section4 .testimonials img[alt=deco-line] {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section4 .row {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .section4 .row .call6 {
   display: flex;
   margin-top: 10%;
+}
+@media screen and (max-width: 600px) {
+  .section4 .row .call6 {
+    flex-direction: column;
+    margin-left: 25%;
+    text-align: center;
+  }
 }
 .section4 .row .call6 .ecrito1 {
   border: solid #fff;
@@ -17638,6 +17666,12 @@ body header .btn {
   border-radius: 15px;
   margin-right: 15px;
   color: #fff;
+}
+@media screen and (max-width: 600px) {
+  .section4 .row .call6 .ecrito2 {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
 }
 .section4 .row .call6 .ecrito2 span {
   color: red;
@@ -17661,6 +17695,11 @@ body header .btn {
 .section5 .title-contact span {
   color: red;
 }
+@media screen and (max-width: 600px) {
+  .section5 .title-contact img[alt=deco-line] {
+    width: 70%;
+  }
+}
 .section5 .contact {
   text-align: center;
   margin-top: 5%;
@@ -17671,6 +17710,11 @@ body header .btn {
   margin-left: 35%;
   margin-right: 35%;
   margin-bottom: 10%;
+}
+@media screen and (max-width: 600px) {
+  .section5 .contact {
+    margin: 0;
+  }
 }
 .section5 .contact i {
   font-size: 3em;
@@ -17685,6 +17729,11 @@ footer .biscuit-2 {
   width: 100%;
   height: 20px;
   position: absolu;
+}
+@media screen and (max-width: 600px) {
+  footer .biscuit-2 {
+    display: flex;
+  }
 }
 footer .col4 {
   color: #fff;

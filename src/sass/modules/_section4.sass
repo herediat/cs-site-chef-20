@@ -12,10 +12,20 @@
             text-transform: capitalize
         span
             color: #C42D40
+        img[alt="deco-line"]
+            @media screen and (max-width: 600px)
+                width: 70%
     .row
+        @media screen and (max-width: 600px)
+            flex-direction: column
+            text-align: center
         .call6
             display: flex
             margin-top: 10%
+            @media screen and (max-width: 600px)
+                flex-direction: column
+                margin-left: 25%
+                text-align: center
             .ecrito1
                 border: solid #fff
                 border-radius: 15px
@@ -28,11 +38,15 @@
                 border-radius: 15px
                 margin-right: 15px
                 color: #fff
+                @media screen and (max-width: 600px)
+                    margin-left: 5%
+                    margin-top: 2%
                 span
                     color: red
             img[alt="testi1"]
                 border-radius: 100%
                 width: 10em
+
             img[alt="testi2"]
                 border-radius: 100%
                 width: 10em
