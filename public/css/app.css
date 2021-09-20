@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: Courgettes;
+  src: url(../fonts/Courgette-Regular.ttf);
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -17231,6 +17235,7 @@ body {
   background-image: url("../images/main_bg.jpg");
   background-repeat: repeat;
   height: auto;
+  font-family: Courgettes;
 }
 body header .nav {
   display: flex;
@@ -17244,7 +17249,6 @@ body header .nav .txt {
   z-index: 1;
   transform: translate(-750px, 300px);
   text-align: center;
-  font-family: "Courgettes";
 }
 body header .nav .txt h1, body header .nav .txt .h1 {
   color: #fff;
@@ -17542,6 +17546,33 @@ body header .nav .elements li a {
 }
 .section5 .contact i {
   font-size: 3em;
+}
+
+footer {
+  background-image: url(../images/footer_background.jpg);
+}
+footer .col-4 {
+  color: #fff;
+  margin-top: 3%;
+}
+footer .col-4 .icns a {
+  text-decoration: none;
+}
+footer .col-4 .icns a i {
+  font-size: 35px;
+  color: #fff;
+  margin: 3%;
+}
+footer .col-4 .tags button {
+  background-color: #C42D40;
+  color: #fff;
+  border-radius: 15px;
+  margin: 2%;
+  border: solid 1px #fff;
+}
+footer #fond-red {
+  background-color: #C42D40;
+  padding: 40px;
 }
 
 /*# sourceMappingURL=app.css.map */
