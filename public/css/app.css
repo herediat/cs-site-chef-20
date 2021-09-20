@@ -17249,6 +17249,11 @@ body header .nav .txt {
   text-align: center;
   font-family: Courgettes;
 }
+@media screen and (max-width: 600px) {
+  body header .nav .txt {
+    flex-direction: column;
+  }
+}
 body header .nav .txt h1, body header .nav .txt .h1 {
   color: #fff;
 }
@@ -17316,43 +17321,43 @@ body header .btn {
 .section1 .row {
   margin-top: 5%;
 }
-.section1 .row .col2 li {
+.section1 .row .call2 li {
   border-right: solid #000;
   border-bottom: solid #000;
   list-style-type: none;
   justify-content: center;
   align-items: center;
 }
-.section1 .row .col2 li:hover {
+.section1 .row .call2 li:hover {
   border-right: solid red;
   color: #000;
 }
-.section1 .row .col2 a {
+.section1 .row .call2 a {
   text-decoration: none;
   color: grey;
 }
-.section1 .row .col2 a i {
+.section1 .row .call2 a i {
   color: grey;
   font-size: 6em;
   margin-left: 25%;
 }
-.section1 .row .col2 a i:hover {
+.section1 .row .call2 a i:hover {
   color: red !important;
 }
-.section1 .row .col2 p {
+.section1 .row .call2 p {
   text-transform: capitalize;
   text-align: center;
   text-align: center;
 }
-.section1 .row .col2 p:hover {
+.section1 .row .call2 p:hover {
   color: #000;
 }
-.section1 .row .col5 li {
+.section1 .row .call5 li {
   display: flex;
   list-style-type: none;
   border-bottom: 1px dotted;
 }
-.section1 .row .col5 li img {
+.section1 .row .call5 li img {
   width: 8em;
   border-radius: 100px;
 }
@@ -17547,33 +17552,33 @@ body header .btn {
 .section4 .testimonials span {
   color: #C42D40;
 }
-.section4 .row .col6 {
+.section4 .row .call6 {
   display: flex;
   margin-top: 10%;
 }
-.section4 .row .col6 .ecrito1 {
+.section4 .row .call6 .ecrito1 {
   border: solid #fff;
   border-radius: 15px;
   margin-left: 15px;
   color: #fff;
 }
-.section4 .row .col6 .ecrito1 span {
+.section4 .row .call6 .ecrito1 span {
   color: red;
 }
-.section4 .row .col6 .ecrito2 {
+.section4 .row .call6 .ecrito2 {
   border: solid #fff;
   border-radius: 15px;
   margin-right: 15px;
   color: #fff;
 }
-.section4 .row .col6 .ecrito2 span {
+.section4 .row .call6 .ecrito2 span {
   color: red;
 }
-.section4 .row .col6 img[alt=testi1] {
+.section4 .row .call6 img[alt=testi1] {
   border-radius: 100%;
   width: 10em;
 }
-.section4 .row .col6 img[alt=testi2] {
+.section4 .row .call6 img[alt=testi2] {
   border-radius: 100%;
   width: 10em;
   float: right;
