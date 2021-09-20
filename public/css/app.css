@@ -17235,20 +17235,19 @@ body {
   background-image: url("../images/main_bg.jpg");
   background-repeat: repeat;
   height: auto;
-  font-family: Courgettes;
 }
 body header .nav {
   display: flex;
   position: absolute;
   z-index: 1;
-  transform: translate(350px, 0);
-  width: 100%;
+  margin-left: 20%;
   margin-top: 2%;
 }
 body header .nav .txt {
   z-index: 1;
-  transform: translate(-750px, 300px);
+  transform: translate(175px, 250px);
   text-align: center;
+  font-family: Courgettes;
 }
 body header .nav .txt h1, body header .nav .txt .h1 {
   color: #fff;
@@ -17286,8 +17285,18 @@ body header .nav .elements li {
 }
 body header .nav .elements li a {
   text-transform: uppercase;
+  color: #fff;
   margin-top: 4%;
   margin-bottom: 4%;
+}
+body header .carou-inté img {
+  height: 100vh;
+  filter: brightness(30%);
+}
+body header .btn {
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50% !important;
 }
 
 .section1 {
