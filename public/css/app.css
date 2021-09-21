@@ -17341,11 +17341,6 @@ body header .btn {
 .section1 .row {
   margin-top: 5%;
 }
-@media screen and (max-width: 600px) {
-  .section1 .row {
-    flex-direction: column;
-  }
-}
 .section1 .row .call2 li {
   border-right: solid #000;
   border-bottom: solid #000;
@@ -17383,8 +17378,13 @@ body header .btn {
   border-bottom: 1px dotted;
 }
 .section1 .row .call5 li img {
-  width: 8em;
+  width: 6em;
   border-radius: 100px;
+}
+@media screen and (max-width: 600px) {
+  .section1 .row .call5 li {
+    flex-direction: column;
+  }
 }
 .section1 .contain-inner {
   display: flex;
